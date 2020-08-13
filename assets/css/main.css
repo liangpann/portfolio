@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
-@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
 @import "compass/css3";
 
 
@@ -148,7 +147,8 @@ input, select, textarea {
 		font-size: 2em;
 		padding: 0 0 0 0;
 		line-height: 1.5em;
-		font-family: "LuloCleanW01-OneBold";
+		font-family: 'Ubuntu', sans-serif;
+		letter-spacing: 2px;
 	}
 
 	h3 {
