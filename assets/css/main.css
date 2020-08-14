@@ -1599,6 +1599,11 @@ input, select, textarea {
 		outline: 0;
 	}
 
+	.responsive {
+		max-width: 100%;
+		height: auto;
+	  }
+
 		.image img {
 			display: block;
 			width: 100%;
@@ -2495,7 +2500,7 @@ input, select, textarea {
 			}
 
 			h2, h3, h4, h5, h6 {
-				font-size: 13pt;
+				font-size: 18pt;
 				margin: 0 0 1em 0;
 			}
 
@@ -2547,8 +2552,9 @@ input, select, textarea {
 			.button {
 				width: 100%;
 				text-align: center;
-				font-size: 1.25em !important;
-				padding: 0.65em 0 !important;
+				font-size: 1em !important;
+				padding: 0.65em 0em !important;
+				margin-bottom: 1em;
 			}
 
 				input[type="button"].icon,
